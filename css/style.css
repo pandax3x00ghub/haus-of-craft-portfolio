@@ -239,6 +239,9 @@ header p {
     display: flex;
     width: max-content;
     /* 내용물만큼 길어져라 */
+}
+
+.fonts-ready .logo-marquee .track {
     animation: flow 40s linear infinite;
 }
 
@@ -307,6 +310,9 @@ header p {
     display: flex;
     width: max-content;
     /* 내용물만큼 길어져라 */
+}
+
+.fonts-ready .tagline-marquee .track {
     animation: flow-reverse 40s linear infinite;
 }
 
@@ -815,6 +821,9 @@ footer {
 .footer-marquee .track {
     display: flex;
     width: max-content;
+}
+
+.fonts-ready .footer-marquee .track {
     animation: flow 40s linear infinite;
 }
 
@@ -835,15 +844,6 @@ footer {
 
 /* footer marquee ends */
 /* footer ends */
-@media (prefers-reduced-motion: reduce) {
-
-    .track,
-    .circle-logo,
-    .footer-img-circle {
-        animation: none;
-    }
-}
-
 /* pc css ends */
 /* 1280 breakpoint starts */
 @media (max-width: 1280px) {
@@ -1119,4 +1119,13 @@ footer {
         gap: 4px;
     }
 
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .track,
+    .circle-logo,
+    .footer-img-circle {
+        animation: none !important;
+    }
 }

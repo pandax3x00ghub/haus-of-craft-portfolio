@@ -7,6 +7,10 @@ const wrapIndex = (n) => {
     return (n + works.length) % works.length;
 }
 
+document.fonts.ready.then(() => {
+    document.body.classList.add("fonts-ready");
+});
+
 const renderImg = () => {
     
     const prevPrevImg = document.querySelector("#prevPrevImg");
