@@ -37,8 +37,7 @@ h1 {
 h2 {
     color: var(--font-strong, #1A1A1A);
     font-family: var(--font-display);
-    font-size: 80px;
-
+    font-size: 56px;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -1.6px;
@@ -47,9 +46,9 @@ h2 {
 h3 {
     color: var(--font-strong, #1A1A1A);
     font-family: var(--font-display);
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 400;
-    line-height: 72px;
+    line-height: 48px;
     /* 150% */
     letter-spacing: -0.96px;
 }
@@ -57,9 +56,9 @@ h3 {
 p {
     color: var(--font-strong, #1A1A1A);
     font-family: var(--font-body);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 32px;
     /* 166.667% */
     letter-spacing: -0.96px;
 }
@@ -82,8 +81,8 @@ p {
 }
 
 .global-icon {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
 }
 
 .global-list-title {
@@ -96,18 +95,18 @@ p {
 .global-list-title-txt {
     color: var(--font-subtle, #666);
     font-family: var(--font-body);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     letter-spacing: -0.8px;
-    width: 144px;
+    width: 120px;
 }
 
 .global-list-desc {
     color: var(--font-strong, #1A1A1A);
     font-family: var(--font-body);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 32px;
     /* 166.667% */
     letter-spacing: -0.96px;
     width: auto;
@@ -459,10 +458,16 @@ header p {
     border-left: 1px solid var(--border-primary, #666);
 }
 
+.about-right-title-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .about-right-title {
     color: var(--font-primary, #333);
     font-family: var(--font-body);
-    font-size: 48px;
+    font-size: 56px;
     font-weight: 600;
     line-height: normal;
     letter-spacing: -2.4px;
@@ -472,7 +477,7 @@ header p {
     color: var(--font-primary, #333);
     font-family: var(--font-body);
     font-size: 32px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     letter-spacing: -1.6px;
 }
@@ -533,6 +538,7 @@ header p {
     border: none;
     background: none;
     cursor: pointer;
+    scale: 0.8;
 }
 
 .txt-slide-container {
@@ -1008,6 +1014,7 @@ footer {
 
     .about-right-title {
         font-size: 24px;
+        line-height: 56px;
         letter-spacing: -0.96px;
     }
 
